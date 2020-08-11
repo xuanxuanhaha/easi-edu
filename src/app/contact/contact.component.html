@@ -1,0 +1,75 @@
+
+
+<div class="enquiry_section" id="enquiry_section" style="margin-left: 0;margin-right: 0;">
+  <div class="row whole_body">
+    <div class="half_section_width">
+      <h1 class="sub_section_header">联系我们</h1>
+      <br>
+      <img src="./../../assets/home/map_icon.png" class="icon_img"><span class="span_wording">地址：35 Childers St, Canberra ACT 2601</span>
+      <br>
+      <br>
+      <img src="./../../assets/home/phone_icon.png" class="icon_img"><span class="span_wording">电话：0459 420 244</span>
+      <br>
+      <br>
+      <img src="./../../assets/home/wechat_icon.png" class="icon_img"><span class="span_wording">微信二维码：</span>
+      <br>
+      <img src="../../assets/home/qrcode.png" style="width: 200px;margin-left: 50px;margin-top: 20px">
+    </div>
+
+    <div class="half_section_width">
+      <h1 class="section_header_purple mobile_only">Enquiry Form</h1>
+      <div class="enquiry_body">
+        <div class="name_section">
+          <input type="text" placeholder="姓名 *" class="text_box" [(ngModel)]="customerName" />
+          <div [hidden]="!nameShow" class="error_message">
+            This field is required
+          </div>
+        </div>
+        <div class="mobile_section">
+          <input type="text" placeholder="电话" class="text_box" [(ngModel)]="customerMobile" />
+        </div>
+
+        <div class="email_section">
+          <input type="text" placeholder="邮箱 *" class="text_box" [(ngModel)]="customerEmail" />
+          <div [hidden]="!emailShow" class="error_message">
+            This field is required
+          </div>
+          <div [hidden]="!invalidEmail" class="error_message">
+            The email address entered is invalid
+          </div>
+        </div>
+        <div class="subject_section">
+          <input type="text" placeholder="主题 * " class="text_box" [(ngModel)]="customerSubject" />
+          <div [hidden]="!subjectShow" class="error_message">
+            This field is required
+          </div>
+        </div>
+        <div class="message_box" style="width: 100%">
+                <textarea placeholder="消息 * " [(ngModel)]="customerMessage" class="text_area_box"
+                          rows="10" cols="0">
+                </textarea>
+          <div [hidden]="!enquiryMessageShow" class="error_message">
+            This field is required
+          </div>
+        </div>
+        <div class="submit_button" (click)="formsubmit()">
+          <button type="button" class="enquire_button_btn">
+            {{submitBut}}
+          </button>
+
+
+          <div class="big_error_message" [hidden]="!bigErrorShow">
+            One or more fields have an error. Please check and try again.
+          </div>
+
+          <div class="success_message" [hidden]="!showSuccessMessage">
+            &#10003; Thanks for submitting your enquiry. We will get in touch with you very soon.
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
