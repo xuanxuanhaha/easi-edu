@@ -41,7 +41,7 @@
 /* White background six yellow buttons */
 .main_content{
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   width: 1400px;
   margin: auto;
 }
@@ -93,4 +93,88 @@
   width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 1880px) {
+  .header{
+    font-size: 70px;
+  }
+  .wording_on_top{
+    left: 45%;
+    transform: translate(-40%, -50%);
+  }
+  .jinqihuodong_wording_on_top{
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width: 1500px) {
+  .header{
+    font-size: 60px;
+  }
+  .wording_on_top{
+    left: 38%;
+    transform: translate(-30%, -40%);
+  }
+  .jinqihuodong_wording_on_top{
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+  .main_content{
+    width: 90%;
+  }
+  .date{
+    padding-top: 10px;
+    margin-bottom: 5px;
+  }
+  .title{
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  .jinqihuodong_wordings{
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .six_button_word{
+    font-size: 20px;
+  }
+  .wording_on_top{
+    left: 30%;
+    transform: translate(-20%, -40%);
+  }
+  .jinqihuodong_wording_on_top{
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+
+}
+@media screen and (max-width: 1100px) {
+  .jinqihuodong_desktop{
+    display: none;
+  }
+  .sub_section_header{
+    padding-bottom: 50px;
+  }
+  .content{
+    font-size: 12px;
+  }
+  .sub_section_header{
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1101px) {
+  .jinqihuodong_mobile{
+    display: none;
+  }
+}
+.backgroundimg{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
 }
