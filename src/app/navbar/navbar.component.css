@@ -234,6 +234,13 @@ input.hamburger-checkbox {
 
 @media screen and (max-width: 500px) {
   .mobile_img_logo{
-    width: 50%;
+    width: 25%;
+  }
+  .hamburger-icon {
+    top: 4vh;
+  }
+  .hamburger-icon span{
+    height: 3px;
+    width: 32px;
   }
 }
