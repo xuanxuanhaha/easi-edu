@@ -46,15 +46,15 @@ export class NavbarComponent implements OnInit {
       // document.getElementById('white_phone_logo').style.display = 'none';
       // document.getElementById('purple_phone_logo').style.display = 'block';
 
-      document.getElementById('service_wording').style.color = '#2e0e5a';
-      document.getElementById('team_wording').style.color = '#2e0e5a';
-      document.getElementById('home_wording').style.color = '#2e0e5a';
-      document.getElementById('service_wording').style.color = '#2e0e5a';
-      document.getElementById('contact_wording').style.color = '#2e0e5a';
-      document.getElementById('humburger_line_1').style.background = '#2e0e5a';
-      document.getElementById('humburger_line_2').style.background = '#2e0e5a';
-      document.getElementById('humburger_line_3').style.background = '#2e0e5a';
-      document.getElementById('humburger_line_4').style.background = '#2e0e5a';
+      document.getElementById('service_wording').style.color = '#ffd800';
+      document.getElementById('team_wording').style.color = '#ffd800';
+      document.getElementById('home_wording').style.color = '#ffd800';
+      document.getElementById('service_wording').style.color = '#ffd800';
+      document.getElementById('contact_wording').style.color = '#ffd800';
+      document.getElementById('humburger_line_1').style.background = '#ffd800';
+      document.getElementById('humburger_line_2').style.background = '#ffd800';
+      document.getElementById('humburger_line_3').style.background = '#ffd800';
+      document.getElementById('humburger_line_4').style.background = '#ffd800';
     } else {
       document.getElementById('navbar_outer').style.background = 'transparent';
       document.getElementById('navbar_real_mobile').style.background = 'transparent';
@@ -62,8 +62,8 @@ export class NavbarComponent implements OnInit {
       document.getElementById('whitelogo').style.display = 'block';
       document.getElementById('whitelogo_mobile').style.display = 'block';
       document.getElementById('purplelogo_mobile').style.display = 'none';
-      document.getElementById('purple_phone_logo').style.display = 'none';
-      document.getElementById('white_phone_logo').style.display = 'block';
+      // document.getElementById('purple_phone_logo').style.display = 'none';
+      // document.getElementById('white_phone_logo').style.display = 'block';
 
       document.getElementById('service_wording').style.color = 'white';
       document.getElementById('team_wording').style.color = 'white';

@@ -21,7 +21,7 @@ export class ContactComponent implements OnInit {
   subjectShow: any = false;
   bigErrorShow: any = false;
 
-  submitBut: any = 'Submit';
+  submitBut: any = '递交表单';
   showSuccessMessage: any = false;
 
   constructor(private sendData: SendDataService) { }

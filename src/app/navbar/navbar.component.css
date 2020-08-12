@@ -157,7 +157,7 @@ div.menu-pane {
   width: 40%;margin-top: 40px
 }
 .outer_div_for_logo{
-  width: 40%;height: 100px
+  width: 40%;height: 100px;margin-top: -10px;
 }
 .webUmate_menus{
   width: 60%;height: 100px

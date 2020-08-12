@@ -1,0 +1,20 @@
+.outer_footer{
+  background: #252525;
+}
+.main_content_footer{
+  max-width: 1400px;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.several_footer_columns{
+  width: 100%;
+  margin: 0;
+}
+.wording_sections{
+  width: 15%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  line-height: 60px;
+}

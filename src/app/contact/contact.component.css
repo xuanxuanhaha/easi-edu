@@ -323,7 +323,7 @@
 }
 
 .whole_body{
-  max-width: 1400px;width: 80%;margin: auto;margin-top: 100px
+  max-width: 1400px;width: 80%;margin: auto;margin-top: 100px;margin-bottom: 100px;
 }
 
 @media screen and (max-width: 1700px) {
