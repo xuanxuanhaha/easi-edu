@@ -103,6 +103,9 @@
 .six_icons_width_space_between{
   width: 7.5%
 }
+.kechengtese_img{
+  width: 80%;margin: auto
+}
 @media screen and (max-width: 1880px) {
   .header{
     font-size: 70px;
@@ -170,9 +173,6 @@
   .jinqihuodong_desktop{
     display: none;
   }
-  .sub_section_header{
-    padding-bottom: 50px;
-  }
   .content{
     font-size: 12px;
   }
@@ -217,6 +217,9 @@
   .jinqihuodong_main_part_desktop{
     display: none;
   }
+  .jinqihuodong_main_part_mobile{
+    display: none;
+  }
   .sub_section_header_jinqihuodong{
     padding-bottom: 0;
   }
@@ -236,9 +239,19 @@
     margin-top: 20px;
     font-size: 20px;
   }
+  .main_content_yellow{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 @media screen and (min-width: 841px) {
+  .jinqihuodong_main_part_pad{
+    display: none;
+  }
   .jinqihuodong_main_part_mobile{
+    display: none;
+  }
+  .jinqihuodong_carousel{
     display: none;
   }
 }
@@ -285,14 +298,42 @@
     width: 2.5%
   }
   .main_content{
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-  .main_content_yellow{
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
+  .six_button_word{
+    font-size: 12px;
+  }
+  .sub_section_header{
+    padding-bottom: 0;
+  }
+  .kechengtese_img{
+    width: 100%;
+  }
 }
+
+@media screen and (max-width: 640px) {
+  .jinqihuodong_main_part_pad{
+    display: none;
+  }
+  .jinqihuodong_main_part_desktop{
+    display: none;
+  }
+  .jinqihuodong_main_part_mobile{
+    display: initial;
+  }
+}
+
+@media screen and (min-width: 640px) {
+
+  .jinqihuodong_main_part_mobile{
+    display: none;
+  }
+
+}
+
+
 @media screen and (max-width: 520px) {
   .header{
     font-size: 20px;
@@ -304,6 +345,66 @@
   .contact_us_btn{
     margin-top: 10px;
     font-size: 10px;
+  }
+  .six_icons_width{
+    width: 28%;
+  }
+  .six_icons_width_space_between{
+    width: 8%;
+  }
+  .six_icons_width_space_between_third{
+    width: 18%;
+  }
+  .content{
+    font-size: 10px;
+  }
+  .six_button_word{
+    font-size: 12px;
+  }
+  .top_wording_on_top{
+    left: 0%;
+    transform: translate(-0, -35%);
+  }
+  .main_content{
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .content{
+    font-size: 10px;
+  }
+  .title{
+    font-size: 15px;
+  }
+  .sub_section_header{
+    font-size: 22px;
+  }
+  .home_banner_desktop{
+    display: none;
+  }
+  .sub_header{
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .madel_icon{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .header{
+    font-size: 22px;
+  }
+  .contact_us_btn{
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 421px) {
+  .home_banner_mobile{
+    display: none;
   }
 }
 .backgroundimg{

@@ -237,10 +237,13 @@ input.hamburger-checkbox {
     width: 25%;
   }
   .hamburger-icon {
-    top: 4vh;
+    top: 20px;
   }
   .hamburger-icon span{
     height: 3px;
     width: 32px;
+  }
+  .mobile_img_logo{
+    margin-top: 20px;
   }
 }

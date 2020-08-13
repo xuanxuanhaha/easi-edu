@@ -6,6 +6,7 @@
   margin: auto;
   padding-top: 80px;
   padding-bottom: 60px;
+  width: 80%;
 }
 .several_footer_columns{
   width: 100%;
@@ -17,4 +18,77 @@
   color: white;
   font-size: 20px;
   line-height: 60px;
+}
+.easi_logo_width{
+  width: 25%;
+}
+.three_icons_width{
+  width: 15%
+}
+.bottom_wording{
+  width: 82%;margin-left: 0;color: white
+}
+@media screen and (max-width: 840px) {
+  .wording_sections{
+    font-size: 15px;
+    width: 13%;
+
+  }
+  .easi_logo_width{
+    width: 35%;
+  }
+  .three_icons_width{
+    width: 25%;
+  }
+  .bottom_wording{
+    width: 75%;
+  }
+
+}
+@media screen and (max-width: 650px) {
+  .main_content_footer{
+    width: 90%;
+  }
+  .wording_sections{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 525px) {
+  .wording_sections {
+    width: 80%;
+    border-bottom: 1px solid white;
+    margin: auto;
+  }
+  .easi_logo_width{
+    width: 100%;
+    text-align: center;
+  }
+  .wording_sections1{
+    padding-top: 20px;
+  }
+  .three_icons_desktop{
+    display: none;
+  }
+  .three_icons_mobile_several_footer_columns{
+    width: 40%;
+    margin: auto;
+    float: initial;
+  }
+  .bottom_wording{
+    width: 100%;
+    text-align: center;
+  }
+  .main_content_footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .three_icons_mobile_several_footer_columns{
+    width: 50%;
+  }
+}
+@media screen and (min-width: 525px) {
+  .three_icons_mobile{
+    display: none;
+  }
+
 }
