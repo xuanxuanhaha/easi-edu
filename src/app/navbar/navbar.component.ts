@@ -17,9 +17,9 @@ export class NavbarComponent implements OnInit {
 
 
   ngOnInit() {
-    document.getElementById('purplelogo').style.display = 'none';
-    document.getElementById('whitelogo').style.display = 'block';
-    document.getElementById('purplelogo').style.display = 'none';
+    // document.getElementById('purplelogo').style.display = 'none';
+    // document.getElementById('whitelogo').style.display = 'block';
+    // document.getElementById('purplelogo').style.display = 'none';
     // document.getElementById('whitelogo_mobile').style.display = 'block';
     // document.getElementById('purple_phone_logo').style.display = 'none';
     // document.getElementById('purplelogo_mobile').style.display = 'none';
@@ -36,32 +36,32 @@ export class NavbarComponent implements OnInit {
     // console.log(this.document.documentElement.scrollTop);
     this.Scroll_To_Height = this.document.documentElement.scrollTop;
     if (this.Scroll_To_Height > 0){
-      document.getElementById('navbar_outer').style.background = 'white';
-      document.getElementById('navbar_real_mobile').style.background = 'white';
+      document.getElementById('navbar_outer').style.background = 'rgba(0,0,0,0.6)';
+      document.getElementById('navbar_real_mobile').style.background = 'rgba(0,0,0,0.6)';
 
-      document.getElementById('whitelogo').style.display = 'none';
-      document.getElementById('purplelogo').style.display = 'block';
-      document.getElementById('whitelogo_mobile').style.display = 'none';
-      document.getElementById('purplelogo_mobile').style.display = 'block';
+      // document.getElementById('whitelogo').style.display = 'none';
+      // document.getElementById('purplelogo').style.display = 'block';
+      // document.getElementById('whitelogo_mobile').style.display = 'none';
+      // document.getElementById('purplelogo_mobile').style.display = 'block';
       // document.getElementById('white_phone_logo').style.display = 'none';
       // document.getElementById('purple_phone_logo').style.display = 'block';
 
-      document.getElementById('service_wording').style.color = '#ffd800';
-      document.getElementById('team_wording').style.color = '#ffd800';
-      document.getElementById('home_wording').style.color = '#ffd800';
-      document.getElementById('service_wording').style.color = '#ffd800';
-      document.getElementById('contact_wording').style.color = '#ffd800';
-      document.getElementById('humburger_line_1').style.background = '#ffd800';
-      document.getElementById('humburger_line_2').style.background = '#ffd800';
-      document.getElementById('humburger_line_3').style.background = '#ffd800';
-      document.getElementById('humburger_line_4').style.background = '#ffd800';
+      // document.getElementById('service_wording').style.color = '#ffd800';
+      // document.getElementById('team_wording').style.color = '#ffd800';
+      // document.getElementById('home_wording').style.color = '#ffd800';
+      // document.getElementById('service_wording').style.color = '#ffd800';
+      // document.getElementById('contact_wording').style.color = '#ffd800';
+      // document.getElementById('humburger_line_1').style.background = '#ffd800';
+      // document.getElementById('humburger_line_2').style.background = '#ffd800';
+      // document.getElementById('humburger_line_3').style.background = '#ffd800';
+      // document.getElementById('humburger_line_4').style.background = '#ffd800';
     } else {
       document.getElementById('navbar_outer').style.background = 'transparent';
       document.getElementById('navbar_real_mobile').style.background = 'transparent';
-      document.getElementById('purplelogo').style.display = 'none';
+      // document.getElementById('purplelogo').style.display = 'none';
       document.getElementById('whitelogo').style.display = 'block';
       document.getElementById('whitelogo_mobile').style.display = 'block';
-      document.getElementById('purplelogo_mobile').style.display = 'none';
+      // document.getElementById('purplelogo_mobile').style.display = 'none';
       // document.getElementById('purple_phone_logo').style.display = 'none';
       // document.getElementById('white_phone_logo').style.display = 'block';
 

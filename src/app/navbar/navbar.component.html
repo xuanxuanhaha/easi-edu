@@ -1,10 +1,10 @@
 <!-- Desktop navbar view -->
 <div id="navbar_outer" style="width: 100%;" class="desktop_navbar">
-  <div id="navbar_real" style="max-width: 1400px; margin: auto;height: 150px">
+  <div id="navbar_real" style="max-width: 1400px; margin: auto;height: 120px">
     <div class="row" style="margin: 0">
       <div class="outer_div_for_logo">
         <img src="assets/navbar/easi-logo-white.png" id="whitelogo" class="webUmate_logo" (click)="goToHomePage()">
-        <img src="assets/navbar/easi_logo_yellow.png" id="purplelogo" class="webUmate_logo" (click)="goToHomePage()">
+<!--        <img src="assets/navbar/easi_logo_yellow.png" id="purplelogo" class="webUmate_logo" (click)="goToHomePage()">-->
       </div>
       <div class="webUmate_menus">
         <div class="row webUmate_menus_row">
@@ -56,17 +56,17 @@
   </div>
   <div>
     <img src="assets/navbar/easi-logo-white.png" id="whitelogo_mobile" class="mobile_img_logo">
-    <img src="assets/navbar/easi_logo_yellow.png" id="purplelogo_mobile" class="mobile_img_logo">
+<!--    <img src="assets/navbar/easi_logo_yellow.png" id="purplelogo_mobile" class="mobile_img_logo">-->
   </div>
 
-  <div class="menu-pane" style="width: 60vw;height: 100vh;background: #2e0e5a">
+  <div class="menu-pane" style="width: 60vw;height: 100vh;background: rgba(0,0,0,0.8)">
 
-    <nav style="background: #2e0e5a">
+    <nav style="background: rgba(0,0,0,0)">
       <ul class="menu-links">
-        <li><a [routerLink]="['/']">Home</a></li>
-        <li><a [routerLink]="['/our_service']">Services</a></li>
-        <li><a [routerLink]="['/team']">Team</a></li>
-        <li><a [routerLink]="['/contact']">Contact</a></li>
+        <li><a [routerLink]="['/']">首页</a></li>
+        <li><a [routerLink]="['/our_service']">课程教育</a></li>
+        <li><a [routerLink]="['/team']">PTE教育</a></li>
+        <li><a [routerLink]="['/contact']">就业培训</a></li>
       </ul>
     </nav>
   </div>

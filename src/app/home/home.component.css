@@ -401,6 +401,9 @@
     font-size: 18px;
     margin-top: 20px;
   }
+  .top_wording_on_top{
+    transform: translate(-0, -45%);
+  }
 }
 @media screen and (min-width: 421px) {
   .home_banner_mobile{

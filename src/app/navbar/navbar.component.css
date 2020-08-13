@@ -22,7 +22,9 @@ body {
 .contact_img{
   margin-top: 50px;width: 240px;
 }
-
+.menu-links li{
+  color: transparent;
+}
 
 
 .hamburger-icon {
@@ -34,12 +36,15 @@ body {
 }
 
 .hamburger-icon span {
-  height: 5px;
-  width: 40px;
+  /*height: 5px;*/
+  /*width: 40px;*/
   display: block;
   margin: 5px 0px 5px 0px;
   transition: 0.7s ease-in-out;
   transform: none;
+
+  height: 3px;
+  width: 32px;
 }
 
 #openmenu:checked ~ .menu-pane {
@@ -178,7 +183,7 @@ input.hamburger-checkbox {
 }
 
 .mobile_img_logo{
-  position: fixed;right: 50px;width: 30%;margin-top: 30px;
+  position: fixed;right: 50px;width: 150px;margin-top: 30px;
 }
 
 @media screen and (min-width: 801px) {
@@ -234,7 +239,7 @@ input.hamburger-checkbox {
 
 @media screen and (max-width: 500px) {
   .mobile_img_logo{
-    width: 25%;
+    width: 30%;
   }
   .hamburger-icon {
     top: 20px;
