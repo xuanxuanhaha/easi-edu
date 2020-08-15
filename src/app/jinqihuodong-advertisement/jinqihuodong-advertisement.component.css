@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
+.yellow_jinqihuodong_main_part{
+  background: #ffd800;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.jinqihuodong_yellow_content{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #ffd800;
+}
+
+.max_width_1400{
+  max-width: 1400px;
+  margin: auto;
+  width: 90%;
+}
+.yellow_pretty_wording{
+  font-family: fantasy;
+  font-size: 20px;
+  color: #ffd800;
+}
+.kecheng_main_content_header{
+  font-size: 40px;
+  color: black;
+}

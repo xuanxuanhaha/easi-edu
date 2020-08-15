@@ -1,0 +1,34 @@
+<div style="position: fixed;width: 100%;top:0;z-index: 999;background: #2e0e5a;height: 0">
+  <app-navbar></app-navbar>
+</div>
+
+<div class="container">
+  <img src="./../../assets/jiuyepeixun/banner_img.jpg" class="home_banner_desktop" style="width: 100%">
+  <img src="./../../assets/home/banner_big_height.jpg" class="home_banner_mobile" style="width: 100%">
+  <div class="max_width_1400">
+    <div class="wording_on_top top_wording_on_top">
+      <h1 class="header">就业培训</h1>
+      <!--      <img src="./../../assets/home/medal.png" class="madel_icon">-->
+      <h3 class="sub_header">精品课程，专业指导，为你就业保驾护航</h3>
+
+      <button class="btn contact_us_btn">立即报名</button>
+    </div>
+  </div>
+</div>
+
+
+
+<!--IT课程 / 会计课程-->
+<div class="container IT_kuaijikecheng">
+  <div class="row max_width_1400">
+    <div style="width: 48%;text-align: right">
+      <button class="btn option_btn" (click)="chooseITCourse()" id="IT_choose_btn">IT课程</button>
+    </div>
+    <div style="width: 4%;text-align: center;color: black;font-size: 20px;padding-top: 5px">
+      /
+    </div>
+    <div style="width: 48%;text-align: left">
+      <button class="btn option_btn" id="Account_choose_btn" (click)="chooseAccountCourse()">会计课程</button>
+    </div>
+  </div>
+</div>

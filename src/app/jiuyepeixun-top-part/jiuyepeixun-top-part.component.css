@@ -225,13 +225,13 @@
   .chakanxiangqing_btn {
     font-size: 15px;
   }
-.kecheng_main_content_words{
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.center p{
-  font-size: 25px;
-}
+  .kecheng_main_content_words{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .center p{
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 1100px) {
   .sub_section_header{
@@ -395,10 +395,10 @@
     font-size: 10px;
   }
   .flips_boxes{
-       width: 80%;
+    width: 80%;
     margin: auto;
     margin-top: 20px;
-     }
+  }
   .first_width_2{
     width: 0;
   }
@@ -421,9 +421,9 @@
   .home_banner_desktop {
     display: none;
   }
-.top_wording_on_top{
-  transform: translate(-0, -45%);
-}
+  .top_wording_on_top{
+    transform: translate(-0, -45%);
+  }
   .content{
     font-size: 10px;
   }
