@@ -9,6 +9,7 @@ export class JiuyepeixunComponent implements OnInit {
 
   chooseIT_flag = true;
   chooseAccount_flag = false;
+  showmore_UI = true;
   constructor() { }
 
   ngOnInit() {
@@ -28,5 +29,7 @@ export class JiuyepeixunComponent implements OnInit {
     document.getElementById('Account_choose_btn').style.background = '#ffd800';
     document.getElementById('IT_choose_btn').style.background = 'transparent';
   }
-
+  showHideUI(){
+    this.showmore_UI = ! this.showmore_UI;
+  }
 }
