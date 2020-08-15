@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { JiuyepeixunComponent } from './jiuyepeixun/jiuyepeixun.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     NavbarComponent,
     ContactComponent,
     FooterComponent,
-    CarouselComponent
+    CarouselComponent,
+    JiuyepeixunComponent
   ],
   imports: [
     BrowserModule,
