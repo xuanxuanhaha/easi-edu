@@ -14,6 +14,7 @@ export class WebQianDuanKeChengComponent implements OnInit {
 
   ngOnInit() {
     this.chooseITCourse();
+    window.scrollTo(0, 0);
   }
 
   chooseITCourse(){

@@ -24,7 +24,7 @@
   font-size: 80px;color: white
 }
 .sub_header{
-  font-size: 28px;padding-left: 30px;padding-right: 30px; font-weight: 400;line-height: 40px;padding-top: 20px;
+  font-size: 28px;padding-left: 30px;padding-right: 30px; font-weight: 400;line-height: 40px;padding-top: 0;margin-top: 40px;
 }
 .madel_icon{
   width: 40%;padding: 30px
@@ -37,7 +37,7 @@
   border-radius: 5px;
   width: 250px;
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .option_btn{
   font-size: 20px;
