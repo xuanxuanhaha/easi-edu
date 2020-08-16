@@ -15,6 +15,7 @@ import { JiuyepeixunComponent } from './jiuyepeixun/jiuyepeixun.component';
 import { JinqihuodongCarouselComponent } from './jinqihuodong-carousel/jinqihuodong-carousel.component';
 import { JinqihuodongAdvertisementComponent } from './jinqihuodong-advertisement/jinqihuodong-advertisement.component';
 import { JiuyepeixunTopPartComponent } from './jiuyepeixun-top-part/jiuyepeixun-top-part.component';
+import { WebQianDuanKeChengComponent } from './web-qian-duan-ke-cheng/web-qian-duan-ke-cheng.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { JiuyepeixunTopPartComponent } from './jiuyepeixun-top-part/jiuyepeixun-
     JiuyepeixunComponent,
     JinqihuodongCarouselComponent,
     JinqihuodongAdvertisementComponent,
-    JiuyepeixunTopPartComponent
+    JiuyepeixunTopPartComponent,
+    WebQianDuanKeChengComponent
   ],
   imports: [
     BrowserModule,
