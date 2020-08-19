@@ -13,7 +13,7 @@ body {
 
 
 .navbar_btns{
-  padding: 20px;background: transparent;color: white;font-size: 23px;margin-top: 40px;
+  padding: 10px 20px;background: transparent;color: white;font-size: 23px;margin-top: 30px;
 }
 .spaces_between_navbar_btns{
   width: 10px;
@@ -30,7 +30,7 @@ body {
 .hamburger-icon {
   position: absolute;
   z-index: 1;
-  top: 5vh;
+  top: 2vh;
   left: 5vw;
   padding-bottom: 2vh;
 }
@@ -46,7 +46,9 @@ body {
   height: 3px;
   width: 32px;
 }
-
+.navbar_real{
+  max-width: 1400px; margin: auto;height: 115px;
+}
 #openmenu:checked ~ .menu-pane {
   left: -5vw;
   transform: translateX(-5vw);
@@ -159,7 +161,7 @@ div.menu-pane {
 
 /*desktop versions*/
 .webUmate_logo{
-  width: 40%;margin-top: 40px
+  width: 200px;margin-top: 25px
 }
 .outer_div_for_logo{
   width: 40%;height: 100px;margin-top: -10px;
@@ -175,7 +177,7 @@ div.menu-pane {
 input.hamburger-checkbox {
   position: absolute;
   z-index: 3;
-  top: 5vh;
+  top: 2vh;
   left: 5vw;
   width: 10vw;
   opacity: 0;
@@ -183,9 +185,11 @@ input.hamburger-checkbox {
 }
 
 .mobile_img_logo{
-  position: fixed;right: 50px;width: 150px;margin-top: 30px;
+  position: fixed;right: 50px;width: 150px;margin-top: 20px;
 }
-
+.mobile_navbar{
+  width: 100vw;position:absolute;height: 90px
+}
 @media screen and (min-width: 801px) {
   .mobile_navbar{
     display: none;
@@ -199,7 +203,7 @@ input.hamburger-checkbox {
 
 @media screen and (max-width: 1600px) {
   .webUmate_logo{
-    margin-left: 40px;width: 55%;
+    margin-left: 40px;width: 192px;
   }
   .outer_div_for_logo{
     width: 30%;
@@ -221,7 +225,7 @@ input.hamburger-checkbox {
     width: 25%;
   }
   .webUmate_logo{
-    margin-left: 30px;width: 75%;
+    margin-left: 30px;width: 200px;
   }
   .webUmate_menus{
     width: 70%;
@@ -252,3 +256,4 @@ input.hamburger-checkbox {
     margin-top: 20px;
   }
 }
+*:focus {outline:none !important}

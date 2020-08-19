@@ -98,7 +98,8 @@
   width: 40%;padding: 30px
 }
 .six_icons_width{
-  width: 14%
+  width: 14%;
+  cursor: pointer;
 }
 .six_icons_width_space_between{
   width: 7.5%
@@ -415,3 +416,4 @@
   height: 150px;
   object-fit: cover;
 }
+*:focus {outline:none !important}
