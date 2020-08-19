@@ -12,10 +12,11 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { JiuyepeixunComponent } from './jiuyepeixun/jiuyepeixun.component';
-import { JinqihuodongCarouselComponent } from './jinqihuodong-carousel/jinqihuodong-carousel.component';
 import { JinqihuodongAdvertisementComponent } from './jinqihuodong-advertisement/jinqihuodong-advertisement.component';
 import { JiuyepeixunTopPartComponent } from './jiuyepeixun-top-part/jiuyepeixun-top-part.component';
 import { WebQianDuanKeChengComponent } from './web-qian-duan-ke-cheng/web-qian-duan-ke-cheng.component';
+import { JiuyepeixunAccountantComponent } from './jiuyepeixun-accountant/jiuyepeixun-accountant.component';
+import { JiuyepeixunITComponent } from './jiuyepeixun-it/jiuyepeixun-it.component';
 
 @NgModule({
   declarations: [
@@ -26,10 +27,11 @@ import { WebQianDuanKeChengComponent } from './web-qian-duan-ke-cheng/web-qian-d
     FooterComponent,
     CarouselComponent,
     JiuyepeixunComponent,
-    JinqihuodongCarouselComponent,
     JinqihuodongAdvertisementComponent,
     JiuyepeixunTopPartComponent,
-    WebQianDuanKeChengComponent
+    WebQianDuanKeChengComponent,
+    JiuyepeixunAccountantComponent,
+    JiuyepeixunITComponent
   ],
   imports: [
     BrowserModule,
