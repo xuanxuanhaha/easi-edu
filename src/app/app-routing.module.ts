@@ -5,6 +5,7 @@ import {JiuyepeixunComponent} from './jiuyepeixun/jiuyepeixun.component';
 import {WebQianDuanKeChengComponent} from './web-qian-duan-ke-cheng/web-qian-duan-ke-cheng.component';
 import {JiuyepeixunAccountantComponent} from './jiuyepeixun-accountant/jiuyepeixun-accountant.component';
 import {JiuyepeixunITComponent} from './jiuyepeixun-it/jiuyepeixun-it.component';
+import {PteEduComponent} from './pte-edu/pte-edu.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: 'webqianduankecheng', component: WebQianDuanKeChengComponent},
   {path: 'kechengjiaoyu-accountant', component: JiuyepeixunAccountantComponent},
   {path: 'kechengjiaoyu-IT', component: JiuyepeixunITComponent},
+  {path: 'PTE-education', component: PteEduComponent},
 ];
 
 @NgModule({

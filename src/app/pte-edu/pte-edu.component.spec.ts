@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { JiuyepeixunComponent } from './jiuyepeixun.component';
+import { PteEduComponent } from './pte-edu.component';
 
-describe('JiuyepeixunComponent', () => {
-  let component: JiuyepeixunComponent;
-  let fixture: ComponentFixture<JiuyepeixunComponent>;
+describe('PteEduComponent', () => {
+  let component: PteEduComponent;
+  let fixture: ComponentFixture<PteEduComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ JiuyepeixunComponent ]
+      declarations: [ PteEduComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(JiuyepeixunComponent);
+    fixture = TestBed.createComponent(PteEduComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

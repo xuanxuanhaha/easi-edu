@@ -1,0 +1,521 @@
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
+.max_width_1400{
+  max-width: 1400px;
+  margin: auto;
+  width: 90%;
+}
+/* Centered text */
+.wording_on_top {
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  transform: translate(-50%, -30%);
+}
+.header{
+  font-size: 80px;color: white
+}
+.sub_header{
+  font-size: 28px;padding-left: 30px;padding-right: 30px; font-weight: 400;line-height: 40px;padding-top: 0;margin-top: 40px;
+}
+.madel_icon{
+  width: 40%;padding: 30px
+}
+.contact_us_btn{
+  background: #ffd800;
+  color: black;
+  font-size: 28px;
+  margin: auto;
+  border-radius: 5px;
+  width: 250px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.option_btn{
+  font-size: 20px;
+  border: 1px solid transparent;
+  color: black;
+  border-radius: 5px;
+}
+.IT_kuaijikecheng{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.kecheng_main_content{
+  background: #eeeeee;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.yellow_pretty_wording{
+  font-family: fantasy;
+  font-size: 20px;
+  color: #ffd800;
+}
+.kecheng_main_content_header{
+  font-size: 40px;
+  color: black;
+}
+.kecheng_main_content_words{
+  font-size: 20px;
+  color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.webUmate{
+  color: #ffd800;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+}
+.card .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.card:hover .img-top {
+  display: inline;
+}
+.initial_img{
+  width: 100%;
+}
+.img-top{
+  background:#ffd800;height:100%;width:100%;text-align: left;padding: 20px;color: black
+}
+.flip_header{
+  font-size: 30px;
+  font-weight: 500;
+}
+.flip_content{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.chakanxiangqing_btn{
+  background: #e8b82c;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 5px;
+}
+.flips_boxes{
+  width: 32%;
+
+}
+.flips_boxes_botom_three{
+  margin-top: 1.5vw;
+}
+.more_box{
+  color: black;
+  font-size: 40px;
+  text-align: left;
+}
+/* Centered text */
+.wording_on_top {
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+
+.center {
+  position: relative;
+  background: #ffd800;
+  color: black;
+}
+
+.center p {
+  color: black;
+  font-weight: 500;
+  font-size: 30px;
+  margin: 0;
+  position: absolute;
+  text-align: left;
+  top: 50%;
+  left: 10%;
+  -ms-transform: translate(10%, -35%);
+  transform: translate(10%, -35%);
+}
+
+.first_width_2{
+  width: 2%;
+}
+.second_width_2{
+  width: 2%;
+}
+.third_width_2{
+  width: 0;
+}
+.last_width_2{
+  width: 2%;
+}
+@media screen and (max-width: 1880px) {
+  .wording_on_top {
+    left: 51%;
+    transform: translate(-50%, -35%);
+  }
+  .header{
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .wording_on_top {
+    left: 51%;
+    transform: translate(-50%, -35%);
+  }
+  .header{
+    font-size: 60px;
+  }
+
+  .flip_header{
+    font-size: 28px;
+  }
+  .flip_content{
+    font-size: 20px;
+  }
+  .chakanxiangqing_btn {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .flip_header{
+    font-size: 24px;
+  }
+  .flip_content{
+    font-size: 18px;
+  }
+  .chakanxiangqing_btn {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1250px) {
+
+  .header{
+    font-size: 50px;
+  }
+  .sub_header{
+    font-size: 25px;
+  }
+  .flip_header{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .flip_content{
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .chakanxiangqing_btn {
+    font-size: 15px;
+  }
+  .kecheng_main_content_words{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .center p{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .sub_section_header{
+    padding-bottom: 30px;
+  }
+  .flip_header{
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .flip_content{
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .chakanxiangqing_btn {
+    font-size: 14px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+  }
+  .kecheng_main_content_words{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+  }
+  .center p{
+    font-size: 20px;
+  }
+  .home_banner_bigger_desktop{
+    display: none;
+  }
+  .wording_on_top{
+    left: 15%;
+    transform: translate(11%, -30%);
+  }
+  .header{
+    font-size: 50px;
+  }
+  .sub_header{
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  .contact_us_btn{
+    font-size: 30px;
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .home_banner_smaller_desktop{
+    display: none;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .img-top{
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .wording_on_top{
+    left: 11%;
+    transform: translate(11%, -30%);
+  }
+  .madel_icon{
+    padding: 15px;
+  }
+  .flip_header{
+    font-size: 14px;
+  }
+  .flip_content{
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .chakanxiangqing_btn {
+    font-size: 12px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+  }
+}
+@media screen and (max-width: 840px) {
+
+  .madel_icon{
+    padding: 10px;
+  }
+  .wording_on_top{
+    left: 7%;
+    transform: translate(11%, -30%);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wording_on_top{
+    left: 3%;
+    transform: translate(11%, -30%);
+  }
+  .madel_icon{
+    padding: 5px;
+  }
+
+  .flips_boxes{
+    width: 49%;
+    margin-top: 1.5vw;
+  }
+  .second_width_2{
+    width: 0;
+  }
+  .third_width_2{
+    width: 2%;
+  }
+  .flip_header{
+    font-size: 20px;
+  }
+  .flip_content{
+    font-size: 15px;
+  }
+  .chakanxiangqing_btn {
+    font-size: 15px;
+  }
+  .center p{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 760px) {
+  /* Centered text */
+  .wording_on_top {
+    left: 9%;
+    transform: translate(2%, -30%);
+  }
+  .sub_section_header {
+    font-size: 30px;
+  }
+
+  .sub_header {
+    line-height: 30px;
+  }
+  .sub_section_header{
+    padding-bottom: 0;
+  }
+  .madel_icon{
+    padding: 0;
+  }
+
+  .center p{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .wording_on_top {
+    left: 3%;
+    transform: translate(2%, -30%);
+  }
+}
+@media screen and (max-width: 640px) {
+  .wording_on_top {
+    left: 16%;
+    transform: translate(0%, -30%);
+  }
+  .header{
+    font-size: 30px;
+  }
+  .sub_header{
+    font-size: 20px;
+  }
+  .contact_us_btn{
+    font-size: 20px;
+  }
+  .flip_header{
+    font-size: 16px;
+  }
+  .flip_content{
+    font-size: 12px;
+  }
+  .chakanxiangqing_btn {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .wording_on_top {
+    left: 12%;
+    transform: translate(0%, -30%);
+  }
+}
+@media screen and (max-width: 520px) {
+  .wording_on_top {
+    left: 10%;
+    transform: translate(0%, -30%);
+  }
+  .flips_boxes{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .first_width_2{
+    width: 0;
+  }
+  .third_width_2{
+    width: 0;
+  }
+  .last_width_2{
+    width: 0;
+  }
+  .gengduokecheng_desk_ipad{
+    display: none;
+  }
+  .kecheng_main_content_words{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .wording_on_top {
+    left: 8%;
+    transform: translate(0%, -30%);
+  }
+  .sub_header{
+    margin-top: 20px;
+  }
+  .contact_us_btn{
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .wording_on_top {
+    left: 4%;
+    transform: translate(0%, -30%);
+  }
+}
+@media screen and (max-width: 440px) {
+  .wording_on_top {
+    left: 10%;
+    transform: translate(0%, -30%);
+  }
+  .header{
+    font-size: 20px;
+  }
+  .sub_header{
+    font-size: 15px;
+  }
+  .contact_us_btn{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .home_banner_bigger_desktop{
+    display: none;
+  }
+  .home_banner_smaller_desktop{
+    display: none;
+  }
+  .top_wording_on_top{
+    transform: translate(-0, -45%);
+  }
+  .content{
+    font-size: 10px;
+  }
+  .title{
+    font-size: 15px;
+  }
+  .sub_section_header{
+    font-size: 22px;
+  }
+  .home_banner_desktop{
+    display: none;
+  }
+  .sub_header{
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .madel_icon{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .header{
+    font-size: 22px;
+  }
+  .contact_us_btn{
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 421px) {
+  .home_banner_mobile{
+    display: none;
+  }
+}
+@media screen and (max-width: 380px) {
+  .top_wording_on_top{
+    transform: translate(-5%, -45%);
+  }
+}
