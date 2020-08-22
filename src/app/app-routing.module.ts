@@ -1,7 +1,6 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {HomeComponent} from './home/home.component';
-import {JiuyepeixunComponent} from './jiuyepeixun/jiuyepeixun.component';
 import {WebQianDuanKeChengComponent} from './web-qian-duan-ke-cheng/web-qian-duan-ke-cheng.component';
 import {JiuyepeixunAccountantComponent} from './jiuyepeixun-accountant/jiuyepeixun-accountant.component';
 import {JiuyepeixunITComponent} from './jiuyepeixun-it/jiuyepeixun-it.component';
