@@ -18,6 +18,7 @@ import { JiuyepeixunAccountantComponent } from './jiuyepeixun-accountant/jiuyepe
 import { JiuyepeixunITComponent } from './jiuyepeixun-it/jiuyepeixun-it.component';
 import { PteEduComponent } from './pte-edu/pte-edu.component';
 import { PteTopPartComponent } from './pte-top-part/pte-top-part.component';
+import { WebQuanZhanJinJieKeChengComponent } from './web-quan-zhan-jin-jie-ke-cheng/web-quan-zhan-jin-jie-ke-cheng.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { PteTopPartComponent } from './pte-top-part/pte-top-part.component';
     JiuyepeixunAccountantComponent,
     JiuyepeixunITComponent,
     PteEduComponent,
-    PteTopPartComponent
+    PteTopPartComponent,
+    WebQuanZhanJinJieKeChengComponent
   ],
   imports: [
     BrowserModule,
