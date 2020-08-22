@@ -351,7 +351,7 @@
 @media screen and (max-width: 760px) {
   /* Centered text */
   .wording_on_top {
-    left: 9%;
+    left: 0%;
     transform: translate(2%, -30%);
   }
   .sub_section_header {
@@ -359,7 +359,7 @@
   }
 
   .sub_header {
-    line-height: 30px;
+    line-height: 20px;
   }
   .sub_section_header{
     padding-bottom: 0;
@@ -374,7 +374,7 @@
 }
 @media screen and (max-width: 700px) {
   .wording_on_top {
-    left: 3%;
+    left: 0;
     transform: translate(2%, -30%);
   }
 }

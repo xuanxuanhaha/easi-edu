@@ -182,13 +182,7 @@
   font-size: 40px;
   text-align: left;
 }
-/* Centered text */
-.wording_on_top {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 
 .center {
   position: relative;
@@ -235,7 +229,7 @@
   width: 80%;margin: auto
 }
 .RSRW_box_content img{
-  width: 12%
+  height: 35px;
 }
 .RSRW_box_content br{
   content: "";
@@ -281,6 +275,88 @@
   margin-left: 0;
   margin-right: 10%;
 }
+
+.wording_on_top {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#frame {
+  position: relative;
+
+  width: 100vw;
+  height: 60vw;
+  background-image: url('./../../assets/pte/pte_jinqihuodong_desktop.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.myImgs{
+  position: absolute;
+  top: 8vw;
+  right: 0;
+  bottom: 0;
+  display: block;
+  margin: auto;
+}
+#myImg {
+  left: 0;
+  width: 20%;
+  z-index: 999;
+}
+
+#myImg_you1 {
+  left: 35vw;
+  width: 18%;
+  z-index: 500;
+}
+#myImg_you2 {
+  left: 54vw;
+  width: 16%;
+  z-index: 300;
+}
+
+#myImg_zuo1 {
+  left: -35vw;
+  width: 18%;
+  z-index: 500;
+}
+#myImg_zuo2 {
+  left: -54vw;
+  width: 16%;
+  z-index: 300;
+}
+.yellow_jinqihuodong_main_part{
+  background: #ffffff;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.jinqihuodong_yellow_content{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #ffffff;
+}
+.row{
+  margin-left: 0;
+  margin-right: 0;
+  margin: auto;
+}
+.jinqihuodong_part{
+  text-align: center;padding-top: 100px
+}
+.xueyuan_img{
+  width: 23.5%;
+}
+.xueyuan_space{
+  width: 2%;
+}
+.kecheng_img_main{
+  margin-left: 0;margin-right: 0;margin-top: 80px
+}
+
 @media screen and (max-width: 1880px) {
   .wording_on_top {
     left: 45%;
@@ -310,6 +386,9 @@
   }
   .intro_inner{
     padding-left: 5%;
+  }
+  .jinqihuodong_part{
+    padding-top: 50px;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -362,6 +441,9 @@
   .intro_inner{
     font-size: 15px;
   }
+  .RSRW_box_content p{
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 1100px) {
   .sub_section_header{
@@ -400,10 +482,32 @@
     font-size: 35px;
     margin-top: -30px;
   }
+  .myImgs{
+    top: 12vw;
+  }
+
 }
 @media screen and (max-width: 1100px) {
   .img-top{
     padding: 10px;
+  }
+  .RSRW_box_content b{
+    font-size: 25px;
+  }
+  .RSRW_box_content p{
+    font-size: 18px;
+  }
+  .each_teacher_intro b{
+    font-size: 25px;
+  }
+  .each_teacher_intro p{
+    font-size: 18px;
+  }
+  .each_teacher_img img{
+    width: 80%;
+  }
+  .jinqihuodong_part{
+    padding-top: 30px;
   }
 }
 @media screen and (max-width: 980px) {
@@ -451,6 +555,15 @@
   }
   .contact_us_btn{
     font-size: 10px;
+  }
+  #frame{
+    height: 70vw;
+  }
+  .kecheng_main_content_header{
+    font-size: 30px;
+  }
+  .yellow_pretty_wording{
+    margin-bottom: 2px;
   }
 }
 
@@ -506,6 +619,29 @@
   .kuaiji_box_sub_titles{
     font-size: 15px;
   }
+  .each_teacher_img{
+    width: 50%;
+    margin-left: 0;
+  }
+  .techer_img_in_left{
+    margin-right: 0;
+  }
+  .RSRW_box{
+    width: 50%;
+    margin-top: 30px;
+  }
+  .RSRW_box_no_border_second{
+    border: 1px solid transparent;
+  }
+
+  .xueyuan_img{
+    width: 49%;
+    margin-top: 10px;
+  }
+  .xueyuan_space_second{
+    width: 0;
+  }
+
 }
 @media screen and (max-width: 760px) {
   .sub_section_header {
@@ -527,6 +663,12 @@
   .center p{
     font-size: 20px;
   }
+  .each_teacher_intro p{
+    font-size: 15px;
+  }
+  .each_teacher_intro b{
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 640px) {
   .flip_header{
@@ -546,6 +688,9 @@
   }
   .kuaiji_box_sub_titles{
     font-size: 12px;
+  }
+  .each_teacher_img img{
+    width: 100%;
   }
 }
 
@@ -597,6 +742,33 @@
   .laoshi_xinxi_box{
     width: 90%;
   }
+  .each_teacher_intro{
+    padding-top: 30px;
+  }
+  .each_teacher_intro b{
+    font-size: 18px;
+  }
+  .each_teacher_intro p{
+    font-size: 12px;
+  }
+  .each_techer_block{
+    margin-top: 50px;
+  }
+  .each_teacher_intro{
+    padding-top: 20px;
+  }
+  #frame{
+    height: 80vw;
+  }
+  .kecheng_main_content_header{
+    font-size: 25px;
+  }
+  .myImgs{
+    top: 18vw;
+  }
+  .yellow_pretty_wording{
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 420px) {
   .home_banner_desktop {
@@ -636,6 +808,9 @@
   .intro_inner{
     font-size: 10px;
     left: 35%;
+  }
+  .each_teacher_intro{
+    padding-top: 0;
   }
 }
 
