@@ -20,6 +20,7 @@ import { PteEduComponent } from './pte-edu/pte-edu.component';
 import { PteTopPartComponent } from './pte-top-part/pte-top-part.component';
 import { WebQuanZhanJinJieKeChengComponent } from './web-quan-zhan-jin-jie-ke-cheng/web-quan-zhan-jin-jie-ke-cheng.component';
 import { PythonKaiFaRuMenKeChengComponent } from './python-kai-fa-ru-men-ke-cheng/python-kai-fa-ru-men-ke-cheng.component';
+import { DjangoJinJieKeChengComponent } from './django-jin-jie-ke-cheng/django-jin-jie-ke-cheng.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { PythonKaiFaRuMenKeChengComponent } from './python-kai-fa-ru-men-ke-chen
     PteEduComponent,
     PteTopPartComponent,
     WebQuanZhanJinJieKeChengComponent,
-    PythonKaiFaRuMenKeChengComponent
+    PythonKaiFaRuMenKeChengComponent,
+    DjangoJinJieKeChengComponent
   ],
   imports: [
     BrowserModule,
