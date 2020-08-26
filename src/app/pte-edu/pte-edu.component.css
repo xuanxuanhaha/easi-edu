@@ -304,7 +304,7 @@
 #myImg {
   left: 0;
   width: 20%;
-  z-index: 999;
+  z-index: 998;
 }
 
 #myImg_you1 {
@@ -768,6 +768,9 @@
   }
   .yellow_pretty_wording{
     font-size: 15px;
+  }
+  .RSRW_box_content p{
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 420px) {
