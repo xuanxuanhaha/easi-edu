@@ -12,7 +12,7 @@
       <img src="./../../assets/home/medal.png" class="madel_icon">
       <h3 class="sub_header">全面的ANU课程辅导，专业的进阶就业技术培训，移民签证业务保障，给你一个全面无忧的学习体验</h3>
 
-      <button class="btn contact_us_btn">联系我们</button>
+      <button class="btn contact_us_btn" [routerLink]="['/Contact_us']">联系我们</button>
     </div>
   </div>
 </div>
@@ -35,14 +35,14 @@
 
     <div class="six_icons_width_space_between"></div>
 
-    <div class="six_icons_width" [routerLink]="'/kechengjiaoyu-IT'">
+    <div class="six_icons_width" [routerLink]="'/jiuye-IT'">
       <img src="./../../assets/home/ITjiuyepeixun.png" style="width: 100%">
       <p class="six_button_word">IT 就业培训</p>
     </div>
 
     <div class="six_icons_width_space_between six_icons_width_space_between_third"></div>
 
-    <div class="six_icons_width" [routerLink]="'/kechengjiaoyu-accountant'">
+    <div class="six_icons_width" [routerLink]="'/jiuye-accountant'">
       <img src="./../../assets/home/kuaijiuyepeixun.png" style="width: 100%">
       <p class="six_button_word">会计 就业培训</p>
     </div>
@@ -57,14 +57,14 @@
 </div>
 
 
-<!-- White background six yellow buttons-->
+<!-- yellow background kechengtese buttons-->
 <div class="yellow_content">
   <div class="main_content main_content_yellow">
     <p class="sub_section_header">课程特色</p>
     <div class="row" style="margin: auto;margin-left: 0">
-      <img src="./../../assets/home/kechengtese.png" class="kechengtese_img">
+      <img src="./../../assets/home/kechengtese.png" class="kechengtese_img" style="margin-top: 0;margin-bottom: 0;width: 100%;height: 100%">
     </div>
-    <img src="./../../assets/home/dianjizixun.png" style="width: 10%;margin-top: -16%;margin-left: 55%">
+    <img src="./../../assets/home/dianjizixun.png" style="width: 10%;margin-top: -16%;margin-left: 55%;cursor: pointer" [routerLink]="['/Contact_us']">
   </div>
 </div>
 
@@ -88,7 +88,7 @@
           <div class="jinqihuodong_wordings">
             <p class="date">01 Sep 2020</p>
             <p class="title ">会计就业和指导</p>
-            <p class="content">我们即将与。。。会计事务所深度合作，开展会计方向的就业指导以及实习指导推荐。</p>
+            <p class="content">我们即将与会计事务所深度合作，开展会计方向的就业指导以及实习指导推荐。</p>
           </div>
         </div>
         <div style="width: 2%"></div>
@@ -98,18 +98,18 @@
           <div class="jinqihuodong_wordings">
             <p class="date">01 Sep 2020</p>
             <p class="title ">移民签证业务</p>
-            <p class="content">我们即将开展。。。移民业务。</p>
+            <p class="content">我们即将开展移民业务。</p>
           </div>
         </div>
         <div style="width: 2%"></div>
-        <div class="jinqihuodong_sections" [routerLink]="['/kechengjiaoyu-IT']">
+        <div class="jinqihuodong_sections" [routerLink]="['/jiuye-IT']">
           <img src="./../../assets/home/ITpeixunhejiuye.jpg" class="jinqihuodong_img jinqihuodong_desktop">
           <img class="backgroundimg jinqihuodong_mobile" src="./../../assets/home/ITpeixunhejiuye.jpg">
           <div class="jinqihuodong_wordings">
             <p class="date">30 Aug 2020</p>
             <p class="title ">IT培训和就业</p>
             <p class="content">我们即将与webUmate IT公司全面合作，开展IT开发培训，web零基础新手训练营，
-              帮助IT毕业生找到自己理想的工作，帮助非计算机学生掌握IT技能，达到行业就业标准，符合堪培拉本地公司开发技术需求.</p>
+              帮助IT毕业生找到自己理想的工作，帮助非计算机学生掌握IT技能，达到行业就业标准，符合堪培拉本地公司开发技术需求。</p>
           </div>
         </div>
       </div>
@@ -127,5 +127,7 @@
 </div>
 
 
-<app-contact></app-contact>
+<!--<app-contact></app-contact>-->
 <app-footer></app-footer>
+
+

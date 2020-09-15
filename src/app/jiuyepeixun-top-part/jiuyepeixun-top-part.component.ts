@@ -17,7 +17,7 @@ export class JiuyepeixunTopPartComponent implements OnInit {
   ngOnInit() {
     console.log(this.document.location.href);
     const url_str = this.document.location.href;
-    const is_include = url_str.includes('kechengjiaoyu-accountant');
+    const is_include = url_str.includes('jiuye-accountant');
     if(is_include){
       this.chooseAccount_flag = true;
       this.chooseIT_flag = false;
@@ -37,7 +37,7 @@ export class JiuyepeixunTopPartComponent implements OnInit {
     this.chooseIT_flag = true;
     document.getElementById('IT_choose_btn').style.background = '#ffd800';
     document.getElementById('Account_choose_btn').style.background = 'transparent';
-    this.router.navigateByUrl('/kechengjiaoyu-IT');
+    this.router.navigateByUrl('/jiuye-IT');
   }
 
   chooseAccountCourse(){
@@ -45,7 +45,7 @@ export class JiuyepeixunTopPartComponent implements OnInit {
     this.chooseIT_flag = false;
     document.getElementById('Account_choose_btn').style.background = '#ffd800';
     document.getElementById('IT_choose_btn').style.background = 'transparent';
-    this.router.navigateByUrl('/kechengjiaoyu-accountant');
+    this.router.navigateByUrl('/jiuye-accountant');
   }
   showHideUI(){
     this.showmore_UI = ! this.showmore_UI;
