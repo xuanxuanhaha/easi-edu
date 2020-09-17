@@ -1,0 +1,183 @@
+<div style="position: fixed;width: 100%;top:0;z-index: 999;background: #2e0e5a;height: 0">
+  <app-navbar></app-navbar>
+</div>
+
+<div class="container">
+  <img src="./../../assets/kechengjiaoyu/desktop_banner.jpg" class="home_banner_bigger_desktop" style="width: 100%">
+  <img src="./../../assets/jiuyepeixun/banner_img_desktop.jpeg" class="home_banner_smaller_desktop" style="width: 100%">
+  <img src="./../../assets/jiuyepeixun/banner_mobile.jpeg" class="home_banner_mobile" style="width: 100%">
+  <div class="max_width_1400">
+    <div class="wording_on_top top_wording_on_top">
+      <h1 class="header">课程教育</h1>
+      <!--      <img src="./../../assets/home/medal.png" class="madel_icon">-->
+      <h3 class="sub_header">大神师资，备考冲刺，门门HD</h3>
+
+      <button class="btn contact_us_btn" [routerLink]="['/Contact_us']">咨询报名</button>
+    </div>
+  </div>
+</div>
+
+<!--IT课程 / 会计课程-->
+<div class="container IT_kuaijikecheng">
+  <div class="row max_width_1400">
+    <div style="text-align: center;width: auto;margin: auto">
+      <button class="btn option_btn"  id="IT_choose_btn">ANU课程</button>
+    </div>
+  </div>
+</div>
+
+
+
+<div style="background-color: #eeeeee">
+  <div class="row max_width_1400" style="padding-top: 50px;padding-bottom: 100px">
+
+    <div class="row course_yellow_sections" (click)="showHideBUSN()">
+      <div style="width: 80%;text-align: left">
+        BUSN
+      </div>
+      <div [hidden]="busn_section_show" style="width: 20%;text-align: right;font-weight: 300">
+        +
+      </div>
+      <div [hidden]="!busn_section_show" style="width: 20%;text-align: right;font-weight: 300;font-size: 30px;padding-top: 10px">
+        X
+      </div>
+    </div>
+    <div style="background-color: white;width: 100%;margin-left: 0;"  [hidden]="!busn_section_show">
+      <div class="row" style="margin-left: 0;margin-right: 0">
+        <div class="courses">
+          BUSN7008
+        </div>
+        <div class="courses">
+          BUSN1001
+        </div>
+        <div class="courses">
+          BUSN3051/7051
+        </div>
+        <div class="courses course_yellow_sections_right">
+          BUSN2011/7031
+        </div>
+        <div class="courses course_yellow_sections_bottom_line">
+          BUSN2015/7050
+        </div>
+        <div class="courses course_yellow_sections_bottom_line">
+          BUSN3001/7005
+        </div>
+        <div class="courses course_yellow_sections_bottom_line">
+          BUSN7054
+        </div>
+        <div class="courses course_yellow_sections_right course_yellow_sections_bottom_line">
+          BUSN3002
+        </div>
+      </div>
+    </div>
+
+    <div class="row course_yellow_sections" (click)="showHideSTAT()">
+      <div style="width: 80%;text-align: left">
+        STAT
+      </div>
+      <div [hidden]="stat_section_show" style="width: 20%;text-align: right;font-weight: 300">
+        +
+      </div>
+      <div [hidden]="!stat_section_show" style="width: 20%;text-align: right;font-weight: 300;font-size: 30px;padding-top: 10px">
+        X
+      </div>
+    </div>
+    <div style="background-color: white;width: 100%;margin-left: 0;"  [hidden]="!stat_section_show">
+      <div class="row" style="margin-left: 0;margin-right: 0">
+
+      </div>
+    </div>
+
+    <div class="row course_yellow_sections" (click)="showHideFINM()">
+      <div style="width: 80%;text-align: left">
+        FINM
+      </div>
+      <div [hidden]="finm_section_show" style="width: 20%;text-align: right;font-weight: 300">
+        +
+      </div>
+      <div [hidden]="!finm_section_show" style="width: 20%;text-align: right;font-weight: 300;font-size: 30px;padding-top: 10px">
+        X
+      </div>
+    </div>
+    <div style="background-color: white;width: 100%;margin-left: 0;"  [hidden]="!finm_section_show">
+      <div class="row" style="margin-left: 0;margin-right: 0">
+
+      </div>
+    </div>
+
+    <div class="row course_yellow_sections" (click)="showHideCOMP()">
+      <div style="width: 80%;text-align: left">
+        COMP
+      </div>
+      <div [hidden]="comp_section_show" style="width: 20%;text-align: right;font-weight: 300">
+        +
+      </div>
+      <div [hidden]="!comp_section_show" style="width: 20%;text-align: right;font-weight: 300;font-size: 30px;padding-top: 10px">
+        X
+      </div>
+    </div>
+    <div style="background-color: white;width: 100%;margin-left: 0;"  [hidden]="!comp_section_show">
+      <div class="row" style="margin-left: 0;margin-right: 0">
+
+        <div class="courses">
+          COMP4650/6490
+        </div>
+        <div class="courses">
+          COMP1730/6730
+        </div>
+        <div class="courses">
+          COMP2400/6240
+        </div>
+        <div class="courses course_yellow_sections_right">
+          COMP1600/6260
+        </div>
+
+        <div class="courses">
+          COMP1110/1140/6710
+        </div>
+        <div class="courses">
+          COMP2100/6442
+        </div>
+        <div class="courses">
+          COMP6466/3600
+        </div>
+        <div class="courses course_yellow_sections_right">
+          COMP8430/3430
+        </div>
+
+        <div class="courses">
+          COMP1100
+        </div>
+        <div class="courses">
+          COMP1720/6720
+        </div>
+        <div class="courses">
+          COMP4610/6461
+        </div>
+        <div class="courses course_yellow_sections_right">
+          COMP6670/3670
+        </div>
+
+
+        <div class="courses course_yellow_sections_bottom_line">
+          COMP2120/6120
+        </div>
+        <div class="courses course_yellow_sections_bottom_line">
+
+        </div>
+        <div class="courses course_yellow_sections_bottom_line">
+
+        </div>
+        <div class="courses course_yellow_sections_right course_yellow_sections_bottom_line">
+
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<app-footer></app-footer>

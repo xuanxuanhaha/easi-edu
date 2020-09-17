@@ -22,6 +22,7 @@ import { PteTopPartComponent } from './pte-top-part/pte-top-part.component';
 import { WebQuanZhanJinJieKeChengComponent } from './web-quan-zhan-jin-jie-ke-cheng/web-quan-zhan-jin-jie-ke-cheng.component';
 import { PythonKaiFaRuMenKeChengComponent } from './python-kai-fa-ru-men-ke-cheng/python-kai-fa-ru-men-ke-cheng.component';
 import { DjangoJinJieKeChengComponent } from './django-jin-jie-ke-cheng/django-jin-jie-ke-cheng.component';
+import { KechengjiaoyuComponent } from './kechengjiaoyu/kechengjiaoyu.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { DjangoJinJieKeChengComponent } from './django-jin-jie-ke-cheng/django-j
     WebQuanZhanJinJieKeChengComponent,
     PythonKaiFaRuMenKeChengComponent,
     DjangoJinJieKeChengComponent,
-    PythonShuJuFenXiKeChengComponent
+    PythonShuJuFenXiKeChengComponent,
+    KechengjiaoyuComponent
   ],
   imports: [
     BrowserModule,
