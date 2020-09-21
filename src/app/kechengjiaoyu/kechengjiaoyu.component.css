@@ -177,6 +177,9 @@
 .course_yellow_sections_bottom_line{
   border-bottom: 1px solid transparent;
 }
+.x_wordings{
+  width: 20%;text-align: right;font-weight: 300;font-size: 30px;padding-top: 10px
+}
 @media screen and (max-width: 1880px) {
   .wording_on_top {
     left: 51%;
@@ -242,6 +245,9 @@
   .center p{
     font-size: 25px;
   }
+  .courses{
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 1100px) {
   .sub_section_header{
@@ -271,10 +277,10 @@
   .home_banner_bigger_desktop{
     display: none;
   }
-  .wording_on_top{
-    left: 15%;
-    transform: translate(11%, -30%);
-  }
+  /*.wording_on_top{*/
+  /*  left: 15%;*/
+  /*  transform: translate(11%, -30%);*/
+  /*}*/
   .header{
     font-size: 50px;
   }
@@ -299,8 +305,8 @@
 }
 @media screen and (max-width: 960px) {
   .wording_on_top{
-    left: 11%;
-    transform: translate(11%, -30%);
+    left: 24%;
+    transform: translate(0, -30%);
   }
   .madel_icon{
     padding: 15px;
@@ -317,22 +323,33 @@
     padding-bottom: 2px;
     padding-top: 2px;
   }
+
+  .courses{
+    font-size: 15px;
+  }
+  .course_yellow_sections{
+    font-size: 30px;
+  }
+  .x_wordings{
+    font-size: 20px;
+  }
+
 }
 @media screen and (max-width: 840px) {
 
   .madel_icon{
     padding: 10px;
   }
-  .wording_on_top{
-    left: 7%;
-    transform: translate(11%, -30%);
-  }
+  /*.wording_on_top{*/
+  /*  left: 7%;*/
+  /*  transform: translate(11%, -30%);*/
+  /*}*/
 }
 
 @media screen and (max-width: 800px) {
   .wording_on_top{
-    left: 3%;
-    transform: translate(11%, -30%);
+    left: 20%;
+    transform: translate(0, -30%);
   }
   .madel_icon{
     padding: 5px;
@@ -363,10 +380,10 @@
 }
 @media screen and (max-width: 760px) {
   /* Centered text */
-  .wording_on_top {
-    left: 0%;
-    transform: translate(2%, -30%);
-  }
+  /*.wording_on_top {*/
+  /*  left: 20%;*/
+  /*  transform: translate(0, -30%);*/
+  /*}*/
   .sub_section_header {
     font-size: 30px;
   }
@@ -387,13 +404,28 @@
 }
 @media screen and (max-width: 700px) {
   .wording_on_top {
-    left: 0;
-    transform: translate(2%, -30%);
+    left: 15%;
+    transform: translate(0, -30%);
+  }
+  .courses{
+    width: 33.333%;
+  }
+  .mobile_course_yellow_sections_right{
+    border-right: 1px solid transparent;
+  }
+  .mobile_course_yellow_sections_left{
+    border-right: 2px solid black;
+  }
+  .mobile_course_yellow_sections_bottom_line{
+    border-bottom: 2px solid black;
+  }
+  .mobile_disappear{
+    display: none;
   }
 }
 @media screen and (max-width: 640px) {
   .wording_on_top {
-    left: 16%;
+    left: 25%;
     transform: translate(0%, -30%);
   }
   .header{
@@ -417,15 +449,11 @@
 }
 @media screen and (max-width: 570px) {
   .wording_on_top {
-    left: 12%;
+    left: 20%;
     transform: translate(0%, -30%);
   }
 }
 @media screen and (max-width: 520px) {
-  .wording_on_top {
-    left: 10%;
-    transform: translate(0%, -30%);
-  }
   .flips_boxes{
     width: 80%;
     margin: auto;
@@ -451,7 +479,7 @@
 }
 @media screen and (max-width: 500px) {
   .wording_on_top {
-    left: 8%;
+    left: 15%;
     transform: translate(0%, -30%);
   }
   .sub_header{
@@ -460,16 +488,33 @@
   .contact_us_btn{
     margin-top: 20px;
   }
+
+  .courses{
+    width: 50%;
+  }
+
+  .small_mobile_course_yellow_sections_right{
+    border-right: 1px solid transparent;
+  }
+  .small_mobile_course_yellow_sections_left{
+    border-right: 2px solid black;
+  }
+  .small_mobile_course_yellow_sections_bottom_line{
+    border-bottom: 2px solid black;
+  }
+  .small_mobile_disappear{
+    display: none;
+  }
 }
 @media screen and (max-width: 460px) {
-  .wording_on_top {
-    left: 4%;
-    transform: translate(0%, -30%);
-  }
+  /*.wording_on_top {*/
+  /*  left: 4%;*/
+  /*  transform: translate(0%, -30%);*/
+  /*}*/
 }
 @media screen and (max-width: 440px) {
   .wording_on_top {
-    left: 10%;
+    left: 20%;
     transform: translate(0%, -30%);
   }
   .header{
@@ -529,6 +574,15 @@
 }
 @media screen and (max-width: 380px) {
   .top_wording_on_top{
-    transform: translate(-5%, -45%);
+    transform: translate(-10%, -45%);
+  }
+  .courses{
+    font-size: 12px;
+  }
+  .course_yellow_sections{
+    font-size: 20px;
+  }
+  .x_wordings{
+    font-size: 12px;
   }
 }
